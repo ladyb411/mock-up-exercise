@@ -1,13 +1,19 @@
+* {font-family: Arial, Helvetica, sans-serif;}
 body {
   color: #444;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .sidebar_right {
-  position: absolute;
-  left: 475px;
-  padding: 50px 0;
-  margin: 600px;
-  margin-top: 10px;
+  float: right;
+  width: 400px
+  padding: 50px 0px;
+  margin: 50px 50px;
+  margin-top: 5px;
 }
 
 h3 {
@@ -18,9 +24,9 @@ h3 {
 }
 p {
   font-family: Arial, Helvetica, sans-serif;
-
   font-size: 11px;
   line-height: 1.5;
+  display: block;
 }
 .more-info {
   color: #1098ad;
@@ -31,3 +37,28 @@ p {
   width: 250px;
   height: 200px;
 }
+/*.container {
+  width: 700px;
+  bottom: 50px;}*/
+/*.cat-logo {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  background-color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f7f7f7;
+}*/
+
+.container {
+  background-color: #444;
+  color: #f7f7f7;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+nav {font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;}
+.div.text {font-family: Arial, Helvetica, sans-serif; font-size: 10px;}
+.copyright {font-family: Arial, Helvetica, sans-serif; font-size: 10px; padding-top: 5px; color:rgb(190, 170, 229)}
